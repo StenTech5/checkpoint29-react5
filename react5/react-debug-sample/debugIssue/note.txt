@@ -1,0 +1,9 @@
+1. Inspect Greeting Component:
+
+Problem: If no name is provided, there is no validation that ensures name is required.
+Solution: Add PropTypes to enforce validation.
+
+2. Inspect Counter Component:
+
+Problem: Clicking "Decrease" allows the count to go negative.
+Solution: Add a condition to prevent negative counts.

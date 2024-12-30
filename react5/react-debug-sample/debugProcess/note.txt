@@ -1,0 +1,13 @@
+Debugging Process
+Issue 1: Prop Validation in Greeting
+
+Problem: The Greeting component lacked validation for the name prop.
+Fix: Added PropTypes validation to ensure name is a required string.
+Issue 2: Prevent Negative Values in Counter
+
+Problem: The counter could decrement to negative values.
+Fix: Updated the decrement function to prevent the count from going below zero.
+Verification:
+
+Used React Developer Tools to inspect state and props.
+Tested user interactions to confirm the fixes.
